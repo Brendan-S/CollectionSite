@@ -1,0 +1,195 @@
+
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.maincontainer{
+    margin: auto;
+    width: 600px;
+    height: 800px;
+    border: 1px solid black;
+    display:grid;
+    grid-template-columns: repeat(30, 1fr);
+    grid-template-rows: repeat(30, 1fr);
+
+}
+
+h1{
+    font-size: 40px;
+}
+
+h2{
+    font-size: 11px;
+    padding:0;
+}
+
+
+
+
+.words1{
+
+    grid-column-start: 1;
+    grid-column-end: 2;
+    text-align: right;
+    line-height: 0.6rem;
+    letter-spacing:0.005rem;
+}
+
+.Op{
+position: relative;
+top:5rem;
+color:white;
+}
+
+.E{
+    position: relative;
+    top:3rem;
+    line-height: 0.6rem;
+    letter-spacing:0.005rem;
+    }
+
+
+.words2{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    
+}
+
+.words3{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    text-align: right;
+    
+}
+
+.words4{
+    grid-column-start: 2;
+    grid-column-end: 3;
+   
+}
+
+.words5{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    text-align: right;
+    
+}
+
+.words6{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    
+}
+
+/*.list{
+    line-height:0.09rem;  
+}*/
+
+.list2{
+    line-height:0.09rem;
+    position: relative;
+    top:3rem;
+    
+}
+
+.list3{
+    line-height:0.09rem;
+    position: relative;
+    line-height:0.09rem;
+    top:13.3rem;
+}
+
+.list4{
+    line-height:0.09rem;
+    position: relative;
+    top:3rem;
+}  
+
+.list5{
+    position: relative;
+    line-height:0.09rem;
+    top:4.3rem;
+
+}
+
+.list6{
+    line-height:0.09rem;
+    position: relative;
+  top:1.6rem;
+}
+.list62{
+    line-height:0.09rem;
+    position: relative;
+    top:0.5rem;
+    
+}
+
+
+
+.list2{
+    line-height:0.09rem;
+    padding-bottom:6px;
+    padding-top:6px;
+}
+
+
+.line4{
+    position: relative;
+    top:3.5rem;
+}
+
+.W{
+    padding-bottom:1px;
+    margin-bottom:0;
+    letter-spacing:0.005rem;
+}
+
+.P{
+    letter-spacing:0.005rem;
+    position: relative;
+    top:4.5rem;
+}
+
+.D{
+    letter-spacing:0.005rem;
+}
+
+.box1{
+    grid-column-start: 1;
+    grid-column-end: 31;
+    grid-row-start: 1;
+    grid-row-end: 11;
+    background-color: red;
+    
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap:2.6rem;
+    
+}
+
+.box2{
+    grid-column-start: 1;
+    grid-column-end: 31;
+    grid-row-start: 11;
+    grid-row-end: 22;
+    background-color: rgb(172, 34, 34);
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap:2.6rem;
+}
+
+
+.box3{
+    grid-column-start: 1;
+    grid-column-end: 31;
+    grid-row-start: 22;
+    grid-row-end: 31;
+    background-color:rgb(158, 30, 58);
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap:2.6rem;
+}
+
+

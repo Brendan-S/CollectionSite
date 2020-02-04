@@ -1,0 +1,147 @@
+
+
+body{
+    width:100vw;
+    height:100vh;
+    overflow: hidden;
+    padding:0;
+    margin:0;
+    /* background-color: #D6F3D8; */
+}
+
+a{
+    text-decoration: none;
+    color:inherit;
+}
+
+.grid{
+    display:grid;
+    grid-template-columns:1.5fr 5fr 2fr;
+    grid-template-rows: 0.2fr 1fr 1fr; 
+    width:100vw;
+    height:100vh; 
+}
+
+
+header{
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+ grid-column-start: 1;
+ grid-column-end: 1;
+ grid-row-start: 1;
+ grid-row-end:1;
+ width:100%;
+ height:100%;
+ border:1px solid black;
+}
+
+.container1{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    grid-column-start: 1;
+    grid-column-end:2;
+    grid-row-start:2;
+    grid-row-end:4;
+    position: relative;
+    border:1px solid black;
+    width:100%;
+    height:100%;
+}
+
+.list{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin:auto;
+    padding:0;
+    width:13rem;
+    height:30.5rem;
+    /* border:1px solid black; */
+
+
+}
+
+.project{
+    margin:auto;
+    padding:0;
+    left:2rem;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+.welcome{
+    padding:0;
+    margin:auto;
+    /* border:1px solid black; */
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.aboutMe{
+    position: relative;
+width: 15rem;
+height:8rem;
+margin:auto;
+padding:0rem 0rem 20rem 2rem;
+/* border:1px solid black; */
+text-align: left;
+line-height: 1.25rem;
+font-family: 'Source Sans Pro', sans-serif;
+
+
+}
+
+
+.container2{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    grid-column-start: 2;
+    grid-column-end:3;
+    grid-row-start:2;
+    grid-row-end:4;
+    position: relative;
+    border:1px solid black;
+    width:100%;
+    height:100%;
+}
+
+
+.container3{
+    display:flex; 
+    flex-direction: column;
+    justify-content: center;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start:2;
+    grid-row-end:4;
+    position: relative;
+    border:1px solid black;
+    width:100%;
+    height:100%;
+}
+
+.photo{
+    padding-right:0;
+    padding-left:0;
+    padding-top:0;
+    padding-bottom:0;
+    margin:auto;
+    bottom:14rem;
+    width:13rem;
+    height:15rem;
+    border:1px solid black;
+}
+
+.container4{
+    border:1px solid black;
+    width:100%;
+    height:100%;
+}
+
+.container5{
+    border:1px solid black;
+    width:100%;
+    height:100%;
+}
