@@ -1,0 +1,20 @@
+<!-- 
+
+I'm writing these notes as many of the website projects I had produced
+did not have user accessiblity in mind as the priority of the design. My hope is that 
+these notes will clarify the navigation/functionality of some of the projects
+when looking through them.
+
+
+
+1) For the Museum Object Project (The website with the black backgrond and abstract shapes) 
+click on the red triangle shapes to proceed to the next web page 
+
+2) For the Paul Ford project, the user is able to draw/scribble in the background
+at the top of the web page. Simply click down with your mouse to start drawing
+
+3) For my reading response to Louise Drulhe’s essay, the text orientation and layout
+of the website change based on the width of the user's browser window. By rescaling its size
+the layout and its colors will change with it
+
+-->
